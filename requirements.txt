@@ -1,1 +1,2 @@
-curl
+curl==latest
+flask==1.1.1
