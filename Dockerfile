@@ -1,5 +1,5 @@
 # Dockerfile
-FROM python:3.10-slim
+FROM python:3.13.5
 WORKDIR /app
 COPY app.py /app
 RUN pip install flask
