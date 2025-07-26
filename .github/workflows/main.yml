@@ -21,6 +21,6 @@ jobs:
           - name: Build and push image
             uses: docker/build-push-action@v4
             with:
-            push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
+              push: true
+              tags: ${{ secrets.DOCKERHUB_USERNAME }}/demo-app:latest
           - run: date
