@@ -12,7 +12,7 @@ jobs:
           - name: Checkout code
             uses: actions/checkout@v3
 
-          - name: Log in to Docker Hub user ${{ secrets.DOCKERHUB_USERNAME }} pass ${{ secrets.DOCKERHUB_USERNAME }} 
+          - name: Log in to Docker Hub user ${{ secrets.DOCKERHUB_USERNAME }} pass ${{ secrets.DOCKERHUB_USERNAME }} var.user user ${{ variables.DOCKERHUB_USERNAME }}
             uses: docker/login-action@v3
             with:
               username: ${{ secrets.DOCKERHUB_USERNAME }}
