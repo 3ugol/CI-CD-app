@@ -2,6 +2,6 @@
 FROM python:3.13.5
 WORKDIR /app
 COPY app.py /app
-COPY template /app
+COPY templates /app/templates
 RUN pip install flask
 CMD ["python", "app.py"]
