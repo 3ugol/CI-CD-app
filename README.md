@@ -2,7 +2,7 @@
 Status of Last Deployment:<br>
 [![homework-CI](https://github.com/3ugol/CI-CD-app/actions/workflows/main.yml/badge.svg)](https://github.com/3ugol/CI-CD-app/actions/workflows/main.yml)
 <br>
-hw.drg.pp.ua
+[Site weather Go](https://hw.drg.pp.ua)
 <br>
 # CI-CD App 🐳🚀
 
